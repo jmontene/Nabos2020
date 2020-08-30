@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 232651497}
   - component: {fileID: 232651500}
   - component: {fileID: 232651501}
+  - component: {fileID: 232651502}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -228,6 +229,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.53612137, y: 0.11945188}
   m_EdgeRadius: 0
+--- !u!114 &232651502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232651496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586b4d467ebb20d44afc04e329a62f9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &449962383
 GameObject:
   m_ObjectHideFlags: 3
@@ -276,15 +289,15 @@ MonoBehaviour:
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
-  m_XDamping: 0.2
-  m_YDamping: 0.2
+  m_XDamping: 0
+  m_YDamping: 0
   m_ZDamping: 0
   m_TargetMovementOnly: 0
   m_ScreenX: 0.5
   m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.1
-  m_DeadZoneHeight: 0.1
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.8
