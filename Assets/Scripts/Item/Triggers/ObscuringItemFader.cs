@@ -68,11 +68,11 @@ public class ObscuringItemFader : MonoBehaviour, PlayerItemTrigger {
         spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
     }
 
-    public void OnPlayerEnter() {
+    public void OnPlayerEnter(Player player) {
         FadeOut();
     }
 
-    public void OnPlayerExit() {
+    public void OnPlayerExit(Player player) {
         FadeIn();
     }
 }

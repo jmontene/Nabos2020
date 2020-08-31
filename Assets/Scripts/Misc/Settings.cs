@@ -15,6 +15,8 @@ public static class Settings {
 
     public static class PlayerVariables {
         public const float movementSpeed = 4.333f;
+        public const int initialInventoryCapacity = 24;
+        public const int maximumInventoryCapacity = 48;
     }
 
 
