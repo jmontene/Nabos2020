@@ -5,11 +5,13 @@ using UnityEngine;
 /// Class that switchs the collider for the cinemachine camera
 /// </summary>
 public class SwitchConfineBoundingShape : MonoBehaviour {
-    /// <summary>
-    /// Initialization with other objects
-    /// </summary>
-    void Start() {
-        SwitchBoundingShape();
+
+    private void OnEnable() {
+        EventHandler.AfterSceneLoadEvent += SwitchBoundingShape;
+    }
+
+    private void OnDisable() {
+        EventHandler.AfterSceneLoadEvent -= SwitchBoundingShape;
     }
 
     /// <summary>

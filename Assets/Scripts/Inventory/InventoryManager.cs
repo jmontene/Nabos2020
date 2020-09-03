@@ -36,6 +36,39 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager> {
     }
 
     /// <summary>
+    /// Remove an item from an inventory
+    /// </summary>
+    /// <param name="location">Location of the item</param>
+    /// <param name="code">Item code</param>
+    public void RemoveItem(InventoryLocation location, int code) {
+        List<InventoryItem> inventoryList = inventoryLists[(int)location];
+        int pos = FindItemInInventory(location, code);
+
+        if (pos != -1) {
+            RemoveItemAtPosition(inventoryList, code, pos);
+            EventHandler.CallInventoryChangeEvent(location, inventoryList);
+        }
+    }
+
+    /// <summary>
+    /// Remove an item at a specific known position
+    /// </summary>
+    /// <param name="list">List to remove from</param>
+    /// <param name="itemCode">Item code</param>
+    /// <param name="position">Position to remove from</param>
+    private void RemoveItemAtPosition(List<InventoryItem> list, int itemCode, int position) {
+        InventoryItem item = new InventoryItem();
+        int quantity = list[position].itemQuantity - 1;
+        if (quantity > 0) {
+            item.itemQuantity = quantity;
+            item.itemCode = itemCode;
+            list[position] = item;
+        } else {
+            list.RemoveAt(position);
+        }
+    }
+
+    /// <summary>
     /// Returns the item position in the inventory list if it exists
     /// </summary>
     /// <param name="location">Location to search in</param>

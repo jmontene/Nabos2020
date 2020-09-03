@@ -13,3 +13,19 @@ public enum InventoryLocation {
     Chest,
     Count
 }
+
+/// <summary>
+/// Possible time slots
+/// </summary>
+public enum TimeSlot {
+    Morning,
+    Day,
+    Afternoon,
+    Evening,
+    Night
+}
+
+public enum SceneName {
+    Scene001_Test,
+    Scene002_Test2
+}

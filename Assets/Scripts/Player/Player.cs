@@ -35,28 +35,69 @@ public class Player : MonoBehaviour {
     /// </summary>
     private float prevInputY;
 
+    [HideInInspector] public bool inputEnabled = true;
+    [HideInInspector] public string currentSpawnPointName = "";
+
     // ********************* Unity Methods *************************** //
 
     /// <summary>
     /// Initialize internal parameters
     /// </summary>
-    private void Awake() {
+    protected void Awake() {
         rb2D = GetComponent<Rigidbody2D>();
+        currentSpawnPointName = "Spawn1";
     }
 
     /// <summary>
     /// Update each frame
     /// </summary>
     private void Update() {
-        PlayerMovementInput();
+        PlayerTestInput();
 
+        if (inputEnabled){
+            PlayerMovementInput();
+        } else {
+            inputX = 0;
+            inputY = 0;
+        }
         if (prevInputX != inputX || prevInputY != inputY) {
             EventHandler.CallMovementEvent(inputX, inputY);
         }
         PlayerMovement();
     }
 
+    private void OnEnable() {
+        EventHandler.BeforeSceneUnloadEvent += OnBeforeSceneUnload;
+        EventHandler.AfterSceneLoadEvent += OnAfterSceneLoaded;
+        EventHandler.AfterSceneLoadFadeInEvent += OnAfterSceneFadedIn;
+    }
+
+    private void OnDisable(){
+        EventHandler.BeforeSceneUnloadEvent -= OnBeforeSceneUnload;
+        EventHandler.AfterSceneLoadEvent -= OnAfterSceneLoaded;
+        EventHandler.AfterSceneLoadFadeInEvent -= OnAfterSceneFadedIn;
+    }
+
     // ********************* Private Methods *************************** //
+
+    private void PlayerTestInput() {
+        if (Input.GetKeyDown(KeyCode.L)) {
+            currentSpawnPointName = "Spawn1";
+            SceneController.Instance.FadeAndLoadScene(SceneName.Scene001_Test.ToString());
+        }
+    }
+
+    private void OnBeforeSceneUnload() {
+        inputEnabled = false;
+    }
+
+    private void OnAfterSceneFadedIn() {
+        inputEnabled = true;
+    }
+
+    private void OnAfterSceneLoaded() {
+        transform.position = SceneController.Instance.FindSpawnPosition(currentSpawnPointName);
+    }
 
     /// <summary>
     /// Get the player input
