@@ -5,8 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class TriggerSceneTeleport : MonoBehaviour, PlayerItemTrigger
 {
-    [SerializeField] private SceneName targetScene;
-    [SerializeField] private string spawnPointName;
+    [SerializeField] private SceneName targetScene = SceneName.Scene000_None;
+    [SerializeField] private string spawnPointName = "";
 
     public void OnPlayerEnter(Player player) {
         player.currentSpawnPointName = spawnPointName;

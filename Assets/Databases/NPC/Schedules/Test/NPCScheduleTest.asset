@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f09f8e0379883e4c8b9aca2990078af, type: 3}
+  m_Name: NPCScheduleTest
+  m_EditorClassIdentifier: 
+  monday:
+    morning:
+      sceneName: 1
+      spawnName: NPCSpawn
+    day:
+      sceneName: 2
+      spawnName: NPCSpawn
+    afternoon:
+      sceneName: 0
+      spawnName: 
+    evening:
+      sceneName: 0
+      spawnName: 
+    night:
+      sceneName: 0
+      spawnName: 
+  tuesday:
+    morning:
+      sceneName: 0
+      spawnName: 
+    day:
+      sceneName: 0
+      spawnName: 
+    afternoon:
+      sceneName: 0
+      spawnName: 
+    evening:
+      sceneName: 0
+      spawnName: 
+    night:
+      sceneName: 0
+      spawnName: 
+  wednesday:
+    morning:
+      sceneName: 0
+      spawnName: 
+    day:
+      sceneName: 0
+      spawnName: 
+    afternoon:
+      sceneName: 0
+      spawnName: 
+    evening:
+      sceneName: 0
+      spawnName: 
+    night:
+      sceneName: 0
+      spawnName: 
+  thursday:
+    morning:
+      sceneName: 0
+      spawnName: 
+    day:
+      sceneName: 0
+      spawnName: 
+    afternoon:
+      sceneName: 0
+      spawnName: 
+    evening:
+      sceneName: 0
+      spawnName: 
+    night:
+      sceneName: 0
+      spawnName: 
+  friday:
+    morning:
+      sceneName: 0
+      spawnName: 
+    day:
+      sceneName: 0
+      spawnName: 
+    afternoon:
+      sceneName: 0
+      spawnName: 
+    evening:
+      sceneName: 0
+      spawnName: 
+    night:
+      sceneName: 1
+      spawnName: NPCSpawn
+  saturday:
+    morning:
+      sceneName: 0
+      spawnName: 
+    day:
+      sceneName: 0
+      spawnName: 
+    afternoon:
+      sceneName: 0
+      spawnName: 
+    evening:
+      sceneName: 0
+      spawnName: 
+    night:
+      sceneName: 0
+      spawnName: 
+  sunday:
+    morning:
+      sceneName: 0
+      spawnName: 
+    day:
+      sceneName: 0
+      spawnName: 
+    afternoon:
+      sceneName: 0
+      spawnName: 
+    evening:
+      sceneName: 0
+      spawnName: 
+    night:
+      sceneName: 0
+      spawnName: 

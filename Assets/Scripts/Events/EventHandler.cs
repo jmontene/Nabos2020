@@ -75,4 +75,18 @@ public static class EventHandler {
         }
     }
 
+    public static event Action DialogueStartEvent;
+    public static void CallDialogueStartEvent() {
+        if (DialogueStartEvent != null) {
+            DialogueStartEvent();
+        }
+    }
+
+    public static event Action DialogueEndEvent;
+    public static void CallDialogueEndEvent()
+    {
+        if (DialogueEndEvent != null) {
+            DialogueEndEvent();
+        }
+    }
 }

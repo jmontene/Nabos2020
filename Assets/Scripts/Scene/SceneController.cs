@@ -10,6 +10,9 @@ public class SceneController : SingletonMonoBehaviour<SceneController> {
     [SerializeField] private Image faderImage = null;
     public SceneName startingScene;
 
+    private string _currentScene;
+    public string CurrentScene { get { return _currentScene; } }
+
     protected IEnumerator Start() {
         faderImage.color = new Color(0f, 0f, 0f, 1f);
         faderCanvasGroup.alpha = 1f;
@@ -51,10 +54,11 @@ public class SceneController : SingletonMonoBehaviour<SceneController> {
         yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
         Scene newlyLoadedScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
         SceneManager.SetActiveScene(newlyLoadedScene);
+        _currentScene = sceneName;
     }
 
     private IEnumerator FadeAndSwitchScenes(string sceneName) {
-        EventHandler.CallBeforeSceneUnloadEvent();
+        EventHandler.CallBeforeSceneUnloadFadeOutEvent();
         yield return StartCoroutine(Fade(1f));
         EventHandler.CallBeforeSceneUnloadEvent();
         yield return SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().buildIndex);
@@ -62,5 +66,12 @@ public class SceneController : SingletonMonoBehaviour<SceneController> {
         EventHandler.CallAfterSceneLoadEvent();
         yield return StartCoroutine(Fade(0f));
         EventHandler.CallAfterSceneLoadFadeInEvent();
+    }
+
+    // Debug Methods
+    public void DebugPassTime() {
+        TimeManager.Instance.NextSlot();
+        TimeManager.Instance.DebugPrint();
+        FadeAndLoadScene(CurrentScene);
     }
 }

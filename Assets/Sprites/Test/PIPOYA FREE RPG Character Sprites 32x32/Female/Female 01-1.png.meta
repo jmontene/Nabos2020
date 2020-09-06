@@ -1,7 +1,187 @@
 fileFormatVersion: 2
 guid: 7d5b22c078dbe984a8a4e360aa02c14a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3420167215148289656
+    second: Female 01-1_0
+  - first:
+      213: -1801323016989662738
+    second: Female 01-1_1
+  - first:
+      213: 2006438787012054446
+    second: Female 01-1_2
+  - first:
+      213: 3202766191769381766
+    second: Female 01-1_3
+  - first:
+      213: -7896730740540351809
+    second: Female 01-1_4
+  - first:
+      213: -5717615901000204966
+    second: Female 01-1_5
+  - first:
+      213: 4341741926911083141
+    second: Female 01-1_6
+  - first:
+      213: 1394899002009850076
+    second: Female 01-1_7
+  - first:
+      213: 2341142599666559829
+    second: Female 01-1_8
+  - first:
+      213: 6314069879303657932
+    second: Female 01-1_9
+  - first:
+      213: -4872991499614623199
+    second: Female 01-1_10
+  - first:
+      213: -2750135526423859632
+    second: Female 01-1_11
+  - first:
+      213: 4877293928308635468
+    second: Female 01-1_12
+  - first:
+      213: 8830044005005489179
+    second: Female 01-1_13
+  - first:
+      213: 5384164658221888451
+    second: Female 01-1_14
+  - first:
+      213: 3398602579873502057
+    second: Female 01-1_15
+  - first:
+      213: -5865005537757428421
+    second: Female 01-1_16
+  - first:
+      213: 8350158735097602651
+    second: Female 01-1_17
+  - first:
+      213: -3149534198162991973
+    second: Female 01-1_18
+  - first:
+      213: -1020155067697971599
+    second: Female 01-1_19
+  - first:
+      213: 4266727392472355946
+    second: Female 01-1_20
+  - first:
+      213: -1998397713189785278
+    second: Female 01-1_21
+  - first:
+      213: 1639357617632843763
+    second: Female 01-1_22
+  - first:
+      213: -3604079278758509243
+    second: Female 01-1_23
+  - first:
+      213: 7152605393096580699
+    second: Female 01-1_24
+  - first:
+      213: -2399505361225271
+    second: Female 01-1_25
+  - first:
+      213: -3887480746100854621
+    second: Female 01-1_26
+  - first:
+      213: -6564119201619217165
+    second: Female 01-1_27
+  - first:
+      213: -8320963075479995536
+    second: Female 01-1_28
+  - first:
+      213: -1841625626452129954
+    second: Female 01-1_29
+  - first:
+      213: -505329774657186242
+    second: Female 01-1_30
+  - first:
+      213: 7261627245480105479
+    second: Female 01-1_31
+  - first:
+      213: 7309883245349173440
+    second: Female 01-1_32
+  - first:
+      213: 5838897657777432108
+    second: Female 01-1_33
+  - first:
+      213: -5264635199211248278
+    second: Female 01-1_34
+  - first:
+      213: 888271337151993863
+    second: Female 01-1_35
+  - first:
+      213: 5780489229348305355
+    second: Female 01-1_36
+  - first:
+      213: -5361327469369936438
+    second: Female 01-1_37
+  - first:
+      213: 1801207232926766392
+    second: Female 01-1_38
+  - first:
+      213: -7474838839417938585
+    second: Female 01-1_39
+  - first:
+      213: -302919906325340914
+    second: Female 01-1_40
+  - first:
+      213: -9034862171266326611
+    second: Female 01-1_41
+  - first:
+      213: 4909429164133953741
+    second: Female 01-1_42
+  - first:
+      213: 785239858355670300
+    second: Female 01-1_43
+  - first:
+      213: 8064264246906098036
+    second: Female 01-1_44
+  - first:
+      213: -8339173673644582374
+    second: Female 01-1_45
+  - first:
+      213: -3975586690817399883
+    second: Female 01-1_46
+  - first:
+      213: 7093190009411770529
+    second: Female 01-1_47
+  - first:
+      213: 5627898456070035785
+    second: Female 01-1_0
+  - first:
+      213: 682475154243322173
+    second: Female 01-1_1
+  - first:
+      213: 5968604227636559728
+    second: Female 01-1_2
+  - first:
+      213: -4000889971862140602
+    second: Female 01-1_3
+  - first:
+      213: -1895470009600201319
+    second: Female 01-1_4
+  - first:
+      213: -3481374848386359039
+    second: Female 01-1_5
+  - first:
+      213: 1979346549458076655
+    second: Female 01-1_6
+  - first:
+      213: 4917922139390478507
+    second: Female 01-1_7
+  - first:
+      213: -8503553703860754192
+    second: Female 01-1_8
+  - first:
+      213: -8161235886051151244
+    second: Female 01-1_9
+  - first:
+      213: 5508224896339574618
+    second: Female 01-1_10
+  - first:
+      213: 6640743776700764064
+    second: Female 01-1_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +212,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,12 +221,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +253,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Female 01-1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9491602f3df4a1e40800000000000000
+      internalID: 5627898456070035785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3104b07983a87900800000000000000
+      internalID: 682475154243322173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ffb290cedb4d250800000000000000
+      internalID: 5968604227636559728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6490cb9a4cbf978c0800000000000000
+      internalID: -4000889971862140602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99daf53a110f1b5e0800000000000000
+      internalID: -1895470009600201319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101a3ff350cafafc0800000000000000
+      internalID: -3481374848386359039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe308df133d087b10800000000000000
+      internalID: 1979346549458076655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba806672128ff3440800000000000000
+      internalID: 4917922139390478507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f82ce8c5fe4df980800000000000000
+      internalID: -8503553703860754192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47230c3a3377dbe80800000000000000
+      internalID: -8161235886051151244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f78410c55217c40800000000000000
+      internalID: 5508224896339574618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Female 01-1_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af82aed749a82c50800000000000000
+      internalID: 6640743776700764064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

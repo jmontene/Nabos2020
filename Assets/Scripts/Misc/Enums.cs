@@ -25,7 +25,25 @@ public enum TimeSlot {
     Night
 }
 
+public enum WeekDay {
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
+}
+
+public enum Direction {
+    Right,
+    Left,
+    Down,
+    Up
+}
+
 public enum SceneName {
+    Scene000_None,
     Scene001_Test,
     Scene002_Test2
 }

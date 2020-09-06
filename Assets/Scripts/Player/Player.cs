@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 /// <summary>
 /// Main player behavior class. Might be separated by domain in the future
@@ -35,8 +36,15 @@ public class Player : MonoBehaviour {
     /// </summary>
     private float prevInputY;
 
+    private Vector2 direction;
+
     [HideInInspector] public bool inputEnabled = true;
     [HideInInspector] public string currentSpawnPointName = "";
+
+    [Header("Interactions")]
+    public Transform interactOrigin;
+    public float interactionDistance;
+    public LayerMask interactionMask;
 
     // ********************* Unity Methods *************************** //
 
@@ -46,16 +54,17 @@ public class Player : MonoBehaviour {
     protected void Awake() {
         rb2D = GetComponent<Rigidbody2D>();
         currentSpawnPointName = "Spawn1";
+        direction = Vector2.down;
     }
 
     /// <summary>
     /// Update each frame
     /// </summary>
     private void Update() {
-        PlayerTestInput();
-
-        if (inputEnabled){
+        if (inputEnabled) {
+            PlayerTestInput();
             PlayerMovementInput();
+            PlayerActionsInput();
         } else {
             inputX = 0;
             inputY = 0;
@@ -67,15 +76,19 @@ public class Player : MonoBehaviour {
     }
 
     private void OnEnable() {
-        EventHandler.BeforeSceneUnloadEvent += OnBeforeSceneUnload;
+        EventHandler.BeforeSceneUnloadFadeOutEvent += OnBeforeSceneUnloadFadeOut;
         EventHandler.AfterSceneLoadEvent += OnAfterSceneLoaded;
         EventHandler.AfterSceneLoadFadeInEvent += OnAfterSceneFadedIn;
+        EventHandler.DialogueStartEvent += OnDialogueStart;
+        EventHandler.DialogueEndEvent += OnDialogueEnd;
     }
 
-    private void OnDisable(){
-        EventHandler.BeforeSceneUnloadEvent -= OnBeforeSceneUnload;
+    private void OnDisable() {
+        EventHandler.BeforeSceneUnloadFadeOutEvent -= OnBeforeSceneUnloadFadeOut;
         EventHandler.AfterSceneLoadEvent -= OnAfterSceneLoaded;
         EventHandler.AfterSceneLoadFadeInEvent -= OnAfterSceneFadedIn;
+        EventHandler.DialogueStartEvent -= OnDialogueStart;
+        EventHandler.DialogueEndEvent -= OnDialogueEnd;
     }
 
     // ********************* Private Methods *************************** //
@@ -84,10 +97,13 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.L)) {
             currentSpawnPointName = "Spawn1";
             SceneController.Instance.FadeAndLoadScene(SceneName.Scene001_Test.ToString());
+        } else if (Input.GetKeyDown(KeyCode.T)) {
+            currentSpawnPointName = "Spawn1";
+            SceneController.Instance.DebugPassTime();
         }
     }
 
-    private void OnBeforeSceneUnload() {
+    private void OnBeforeSceneUnloadFadeOut() {
         inputEnabled = false;
     }
 
@@ -98,6 +114,17 @@ public class Player : MonoBehaviour {
     private void OnAfterSceneLoaded() {
         transform.position = SceneController.Instance.FindSpawnPosition(currentSpawnPointName);
     }
+    private void OnDialogueStart() {
+        inputEnabled = false;
+    }
+
+    private void OnDialogueEnd() {
+        StartCoroutine(OnDialogueEndRoutine());
+    }
+    private IEnumerator OnDialogueEndRoutine() {
+        yield return new WaitForSeconds(0.2f);
+        inputEnabled = true;
+    }
 
     /// <summary>
     /// Get the player input
@@ -107,7 +134,11 @@ public class Player : MonoBehaviour {
         prevInputY = inputY;
         inputX = Input.GetAxisRaw("Horizontal");
         inputY = inputX == 0 ? Input.GetAxisRaw("Vertical") : 0;
-        movementSpeed = (inputX != 0 || inputY != 0) ? Settings.PlayerVariables.movementSpeed : 0;
+        bool hasDirection = (inputX != 0 || inputY != 0);
+        if (hasDirection) {
+            direction.Set(inputX, inputY);
+        }
+        movementSpeed = hasDirection ? Settings.PlayerVariables.movementSpeed : 0;
     }
 
     /// <summary>
@@ -117,5 +148,17 @@ public class Player : MonoBehaviour {
         float moveSpeed = movementSpeed;
         Vector2 move = new Vector2(inputX * moveSpeed, inputY * moveSpeed);
         rb2D.velocity = move;
+    }
+
+    private void PlayerActionsInput() {
+        if (Input.GetButtonDown("Interact")) {
+            RaycastHit2D hit = Physics2D.Raycast(interactOrigin.position, direction, interactionDistance, interactionMask);
+            if (hit) {
+                PlayerInteractionTrigger interaction = hit.collider.GetComponentInParent<PlayerInteractionTrigger>();
+                if (interaction != null) {
+                    interaction.OnPlayerInteract(this);
+                }
+            }
+        }
     }
 }
