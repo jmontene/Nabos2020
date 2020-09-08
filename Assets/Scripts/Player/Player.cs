@@ -81,6 +81,8 @@ public class Player : MonoBehaviour {
         EventHandler.AfterSceneLoadFadeInEvent += OnAfterSceneFadedIn;
         EventHandler.DialogueStartEvent += OnDialogueStart;
         EventHandler.DialogueEndEvent += OnDialogueEnd;
+        EventHandler.CutsceneStartEvent += OnCutsceneStart;
+        EventHandler.CutsceneEndEvent += OnCutsceneEnd;
     }
 
     private void OnDisable() {
@@ -89,6 +91,8 @@ public class Player : MonoBehaviour {
         EventHandler.AfterSceneLoadFadeInEvent -= OnAfterSceneFadedIn;
         EventHandler.DialogueStartEvent -= OnDialogueStart;
         EventHandler.DialogueEndEvent -= OnDialogueEnd;
+        EventHandler.CutsceneStartEvent -= OnCutsceneStart;
+        EventHandler.CutsceneEndEvent -= OnCutsceneEnd;
     }
 
     // ********************* Private Methods *************************** //
@@ -108,7 +112,7 @@ public class Player : MonoBehaviour {
     }
 
     private void OnAfterSceneFadedIn() {
-        inputEnabled = true;
+        inputEnabled = !CutsceneManager.Instance.IsPlayingCutscene;
     }
 
     private void OnAfterSceneLoaded() {
@@ -123,6 +127,14 @@ public class Player : MonoBehaviour {
     }
     private IEnumerator OnDialogueEndRoutine() {
         yield return new WaitForSeconds(0.2f);
+        inputEnabled = !CutsceneManager.Instance.IsPlayingCutscene;
+    }
+
+    private void OnCutsceneStart() {
+        inputEnabled = false;
+    }
+
+    private void OnCutsceneEnd() {
         inputEnabled = true;
     }
 

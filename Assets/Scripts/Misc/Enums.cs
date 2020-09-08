@@ -42,6 +42,12 @@ public enum Direction {
     Up
 }
 
+public enum CutsceneActionType {
+    SwitchScene,
+    Dialogue,
+    PassTime
+}
+
 public enum SceneName {
     Scene000_None,
     Scene001_Test,

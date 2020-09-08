@@ -16,6 +16,6 @@ public class NPC : MonoBehaviour, PlayerInteractionTrigger {
     }
 
     public void OnPlayerInteract(Player player) {
-        DialogueManager.Instance.StartDialogue(0);
+        CutsceneManager.Instance.PlayCutscene(0);
     }
 }

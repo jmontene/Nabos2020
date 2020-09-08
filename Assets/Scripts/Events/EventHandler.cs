@@ -89,4 +89,27 @@ public static class EventHandler {
             DialogueEndEvent();
         }
     }
+
+    public static event Action CutsceneActionEndEvent;
+    public static void CallCutsceneActionEndEvent() {
+        if (CutsceneActionEndEvent != null) {
+            CutsceneActionEndEvent();
+        }
+    }
+
+    public static event Action CutsceneStartEvent;
+    public static void CallCutsceneStartEvent() {
+        if (CutsceneStartEvent != null) {
+            CutsceneStartEvent();
+        }
+    }
+
+    public static event Action CutsceneEndEvent;
+    public static void CallCutsceneEndEvent()
+    {
+        if (CutsceneEndEvent != null)
+        {
+            CutsceneEndEvent();
+        }
+    }
 }
