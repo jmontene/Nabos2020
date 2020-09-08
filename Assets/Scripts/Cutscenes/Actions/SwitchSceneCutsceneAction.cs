@@ -3,6 +3,10 @@ public class SwitchSceneCutsceneAction : BaseCutsceneAction {
     public SceneName sceneName;
     public bool endOnLoad = false;
 
+    public override string GetEditorName() {
+        return "Switch Scene Action";
+    }
+
     public override void Execute() {
         if (endOnLoad) {
             EventHandler.AfterSceneLoadEvent += OnSceneLoad;
