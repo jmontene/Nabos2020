@@ -5,9 +5,11 @@ using UnityEngine;
 [CustomEditor(typeof(CutsceneDetails))]
 public class CutsceneDetailsEditor : Editor {
     private List<bool> collapse;
+    private CutsceneActionType typeSelected;
 
     protected void OnEnable() {
         collapse = new List<bool>();
+        typeSelected = CutsceneActionType.SwitchScene;
         CutsceneDetails obj = serializedObject.targetObject as CutsceneDetails;
         for (int i = 0; i < obj.actions.Count; ++i) {
             collapse.Add(false);
@@ -40,8 +42,27 @@ public class CutsceneDetailsEditor : Editor {
             }
         }
 
-        AddActionButton<SwitchSceneCutsceneAction>(obj, "Add Scene Switch", "SwitchScene");
-        AddActionButton<DialogueCutsceneAction>(obj, "Add Dialogue Action", "StartDialogue");
+        EditorGUILayout.LabelField("Add Action");
+
+        EditorGUI.indentLevel++;
+
+        EditorGUILayout.BeginHorizontal();
+        EditorGUILayout.LabelField("Action Type");
+        typeSelected = (CutsceneActionType) EditorGUILayout.EnumPopup(typeSelected);
+        EditorGUILayout.EndHorizontal();
+
+        switch(typeSelected){
+            case CutsceneActionType.SwitchScene:
+                AddActionButton<SwitchSceneCutsceneAction>(obj, "Add Scene Switch", "SwitchScene");
+                break;
+            case CutsceneActionType.Dialogue:
+                AddActionButton<DialogueCutsceneAction>(obj, "Add Dialogue Action", "StartDialogue");
+                break;
+            case CutsceneActionType.PassTime:
+                AddActionButton<PassTimeCutsceneAction>(obj, "Add Pass Time Action", "Pass Time");
+                break;
+        }
+        EditorGUI.indentLevel--;
 
         serializedObject.ApplyModifiedProperties();
         serializedObject.Update();
