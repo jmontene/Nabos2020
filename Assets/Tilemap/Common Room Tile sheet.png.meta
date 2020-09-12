@@ -1,0 +1,3241 @@
+fileFormatVersion: 2
+guid: 9e6f05541c60f534cae011ad68b452eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4111076884920903894
+    second: Common Room Tile sheet_0
+  - first:
+      213: 8302274256968126005
+    second: Common Room Tile sheet_1
+  - first:
+      213: -8520841835540361297
+    second: Common Room Tile sheet_2
+  - first:
+      213: 725434667854503350
+    second: Common Room Tile sheet_3
+  - first:
+      213: 2316479843799826217
+    second: Common Room Tile sheet_4
+  - first:
+      213: 7853091488396662139
+    second: Common Room Tile sheet_5
+  - first:
+      213: 425607694877850042
+    second: Common Room Tile sheet_6
+  - first:
+      213: -7759149090534331467
+    second: Common Room Tile sheet_7
+  - first:
+      213: 4503211491380242134
+    second: Common Room Tile sheet_8
+  - first:
+      213: -779265096168272016
+    second: Common Room Tile sheet_9
+  - first:
+      213: 4668189321848882225
+    second: Common Room Tile sheet_10
+  - first:
+      213: -531890238006529398
+    second: Common Room Tile sheet_11
+  - first:
+      213: 1616177225102337667
+    second: Common Room Tile sheet_12
+  - first:
+      213: 3490692556413166380
+    second: Common Room Tile sheet_13
+  - first:
+      213: 7669019640274024011
+    second: Common Room Tile sheet_14
+  - first:
+      213: -121070486942296440
+    second: Common Room Tile sheet_15
+  - first:
+      213: 607477625782736919
+    second: Common Room Tile sheet_16
+  - first:
+      213: -1943649862574080998
+    second: Common Room Tile sheet_17
+  - first:
+      213: 2683132437100520131
+    second: Common Room Tile sheet_18
+  - first:
+      213: -1117894678300324139
+    second: Common Room Tile sheet_19
+  - first:
+      213: -7128158657194593689
+    second: Common Room Tile sheet_20
+  - first:
+      213: -2614350460141802842
+    second: Common Room Tile sheet_21
+  - first:
+      213: 3499070868936467058
+    second: Common Room Tile sheet_22
+  - first:
+      213: -6172599254263165966
+    second: Common Room Tile sheet_23
+  - first:
+      213: 3543171625562253117
+    second: Common Room Tile sheet_24
+  - first:
+      213: -6646784872152197399
+    second: Common Room Tile sheet_25
+  - first:
+      213: 406824286810964664
+    second: Common Room Tile sheet_26
+  - first:
+      213: 5447237395592809433
+    second: Common Room Tile sheet_27
+  - first:
+      213: 6626770130703638442
+    second: Common Room Tile sheet_28
+  - first:
+      213: 3564697739227099590
+    second: Common Room Tile sheet_29
+  - first:
+      213: 194889836363793256
+    second: Common Room Tile sheet_30
+  - first:
+      213: 6194432895937509128
+    second: Common Room Tile sheet_31
+  - first:
+      213: 6818706810573743398
+    second: Common Room Tile sheet_32
+  - first:
+      213: -1780317772660711798
+    second: Common Room Tile sheet_33
+  - first:
+      213: 4801979518308644704
+    second: Common Room Tile sheet_34
+  - first:
+      213: -1670962876288635816
+    second: Common Room Tile sheet_35
+  - first:
+      213: 7551149271719772575
+    second: Common Room Tile sheet_36
+  - first:
+      213: 2731536297506635445
+    second: Common Room Tile sheet_37
+  - first:
+      213: 5236971109383319706
+    second: Common Room Tile sheet_38
+  - first:
+      213: -6064664110155836554
+    second: Common Room Tile sheet_39
+  - first:
+      213: -1406589603051001817
+    second: Common Room Tile sheet_40
+  - first:
+      213: 5631795791235972191
+    second: Common Room Tile sheet_41
+  - first:
+      213: 7077279169893985717
+    second: Common Room Tile sheet_42
+  - first:
+      213: -4546944510045459233
+    second: Common Room Tile sheet_43
+  - first:
+      213: 3834055883210762558
+    second: Common Room Tile sheet_44
+  - first:
+      213: -3011091146544346530
+    second: Common Room Tile sheet_45
+  - first:
+      213: 5969842021734601427
+    second: Common Room Tile sheet_46
+  - first:
+      213: 6015452193099736972
+    second: Common Room Tile sheet_47
+  - first:
+      213: 9020954154612276746
+    second: Common Room Tile sheet_48
+  - first:
+      213: -7229047631214530686
+    second: Common Room Tile sheet_49
+  - first:
+      213: -1862342748508182756
+    second: Common Room Tile sheet_50
+  - first:
+      213: -5786077065112957776
+    second: Common Room Tile sheet_51
+  - first:
+      213: -398149583713624941
+    second: Common Room Tile sheet_52
+  - first:
+      213: 397407956019651067
+    second: Common Room Tile sheet_53
+  - first:
+      213: 39359589142817180
+    second: Common Room Tile sheet_54
+  - first:
+      213: -9035268589979275682
+    second: Common Room Tile sheet_55
+  - first:
+      213: 7005861432647503845
+    second: Common Room Tile sheet_56
+  - first:
+      213: 4824109187508664876
+    second: Common Room Tile sheet_57
+  - first:
+      213: -1926361523577729112
+    second: Common Room Tile sheet_58
+  - first:
+      213: -865058125741644573
+    second: Common Room Tile sheet_59
+  - first:
+      213: 9192530246971848185
+    second: Common Room Tile sheet_60
+  - first:
+      213: -2467660415389286733
+    second: Common Room Tile sheet_61
+  - first:
+      213: 6335791829449062968
+    second: Common Room Tile sheet_62
+  - first:
+      213: -8781312691559833310
+    second: Common Room Tile sheet_63
+  - first:
+      213: -944370626562319902
+    second: Common Room Tile sheet_64
+  - first:
+      213: 157182853305656884
+    second: Common Room Tile sheet_65
+  - first:
+      213: -1362881550345040675
+    second: Common Room Tile sheet_66
+  - first:
+      213: -1225049001823205054
+    second: Common Room Tile sheet_67
+  - first:
+      213: 1818670062731395217
+    second: Common Room Tile sheet_68
+  - first:
+      213: -7509303134896822281
+    second: Common Room Tile sheet_69
+  - first:
+      213: 5094995210106488566
+    second: Common Room Tile sheet_70
+  - first:
+      213: -3144783149225235597
+    second: Common Room Tile sheet_71
+  - first:
+      213: -3185452793063220929
+    second: Common Room Tile sheet_72
+  - first:
+      213: -3545927270086084225
+    second: Common Room Tile sheet_73
+  - first:
+      213: 174729661993266984
+    second: Common Room Tile sheet_74
+  - first:
+      213: 6329142598867293819
+    second: Common Room Tile sheet_75
+  - first:
+      213: 4071496275030061679
+    second: Common Room Tile sheet_76
+  - first:
+      213: -535870324088644455
+    second: Common Room Tile sheet_77
+  - first:
+      213: -1475506833663956801
+    second: Common Room Tile sheet_78
+  - first:
+      213: 7509993451167188065
+    second: Common Room Tile sheet_79
+  - first:
+      213: 6190405535683666033
+    second: Common Room Tile sheet_80
+  - first:
+      213: -2060936323753091403
+    second: Common Room Tile sheet_81
+  - first:
+      213: -1884778837726011480
+    second: Common Room Tile sheet_82
+  - first:
+      213: -7534471263118019130
+    second: Common Room Tile sheet_83
+  - first:
+      213: -5639046819488478526
+    second: Common Room Tile sheet_84
+  - first:
+      213: 5736799141880266497
+    second: Common Room Tile sheet_85
+  - first:
+      213: -5583916246134726884
+    second: Common Room Tile sheet_86
+  - first:
+      213: 1238140902068870609
+    second: Common Room Tile sheet_87
+  - first:
+      213: -986013962989643152
+    second: Common Room Tile sheet_88
+  - first:
+      213: 1340626115655898893
+    second: Common Room Tile sheet_89
+  - first:
+      213: 7305436805786327402
+    second: Common Room Tile sheet_90
+  - first:
+      213: 1992507898183174672
+    second: Common Room Tile sheet_91
+  - first:
+      213: 997891091449552678
+    second: Common Room Tile sheet_92
+  - first:
+      213: 2898016736251652171
+    second: Common Room Tile sheet_93
+  - first:
+      213: -1765796741685349236
+    second: Common Room Tile sheet_94
+  - first:
+      213: 4359619209112620065
+    second: Common Room Tile sheet_95
+  - first:
+      213: 4121593964196304654
+    second: Common Room Tile sheet_96
+  - first:
+      213: -8476301814537874813
+    second: Common Room Tile sheet_97
+  - first:
+      213: 2221398000645595342
+    second: Common Room Tile sheet_98
+  - first:
+      213: 7036146059628917548
+    second: Common Room Tile sheet_99
+  - first:
+      213: -722005060516962541
+    second: Common Room Tile sheet_100
+  - first:
+      213: 704430244559086533
+    second: Common Room Tile sheet_101
+  - first:
+      213: 3970929430176028289
+    second: Common Room Tile sheet_102
+  - first:
+      213: -4490624101899805027
+    second: Common Room Tile sheet_103
+  - first:
+      213: 390274135707023580
+    second: Common Room Tile sheet_104
+  - first:
+      213: 6071745002145789911
+    second: Common Room Tile sheet_105
+  - first:
+      213: 2369594890463993588
+    second: Common Room Tile sheet_106
+  - first:
+      213: 3725107690624602895
+    second: Common Room Tile sheet_107
+  - first:
+      213: -7722049017846223258
+    second: Common Room Tile sheet_108
+  - first:
+      213: 7048288499850126727
+    second: Common Room Tile sheet_109
+  - first:
+      213: -5128676182156975924
+    second: Common Room Tile sheet_110
+  - first:
+      213: 1868389110477483523
+    second: Common Room Tile sheet_111
+  - first:
+      213: -1522525876400965703
+    second: Common Room Tile sheet_112
+  - first:
+      213: -6390443396169658874
+    second: Common Room Tile sheet_113
+  - first:
+      213: 568376143436721438
+    second: Common Room Tile sheet_114
+  - first:
+      213: 4361412178056989349
+    second: Common Room Tile sheet_115
+  - first:
+      213: -356565654450333407
+    second: Common Room Tile sheet_116
+  - first:
+      213: 5356188000933707971
+    second: Common Room Tile sheet_117
+  - first:
+      213: 6103538540181018665
+    second: Common Room Tile sheet_118
+  - first:
+      213: 6150198966485055350
+    second: Common Room Tile sheet_0
+  - first:
+      213: -697503012766073195
+    second: Common Room Tile sheet_1
+  - first:
+      213: -8229916352353762605
+    second: Common Room Tile sheet_2
+  - first:
+      213: -5388731159442015791
+    second: Common Room Tile sheet_3
+  - first:
+      213: -8541668389632147687
+    second: Common Room Tile sheet_4
+  - first:
+      213: 8900941365073362931
+    second: Common Room Tile sheet_5
+  - first:
+      213: 4832274862504456740
+    second: Common Room Tile sheet_6
+  - first:
+      213: -1911356953497814863
+    second: Common Room Tile sheet_7
+  - first:
+      213: 6663688587803461158
+    second: Common Room Tile sheet_14
+  - first:
+      213: 6280909573245462245
+    second: Common Room Tile sheet_15
+  - first:
+      213: 388464230191501436
+    second: Common Room Tile sheet_25
+  - first:
+      213: -6537731564409796041
+    second: Common Room Tile sheet_26
+  - first:
+      213: 5454540333664222427
+    second: Common Room Tile sheet_27
+  - first:
+      213: 4680578828739806203
+    second: Common Room Tile sheet_28
+  - first:
+      213: 7570916923741398102
+    second: Common Room Tile sheet_33
+  - first:
+      213: 5243482932266670201
+    second: Common Room Tile sheet_34
+  - first:
+      213: -499887482466778438
+    second: Common Room Tile sheet_35
+  - first:
+      213: 3377257543696159891
+    second: Common Room Tile sheet_36
+  - first:
+      213: -1849692169686651172
+    second: Common Room Tile sheet_40
+  - first:
+      213: 8351090560269756093
+    second: Common Room Tile sheet_41
+  - first:
+      213: 6297481043065040287
+    second: Common Room Tile sheet_42
+  - first:
+      213: 2372596054709649441
+    second: Common Room Tile sheet_43
+  - first:
+      213: 6352283430202651100
+    second: Common Room Tile sheet_44
+  - first:
+      213: -4045947968395934403
+    second: Common Room Tile sheet_49
+  - first:
+      213: 7350566896171104127
+    second: Common Room Tile sheet_50
+  - first:
+      213: 8962567751251516309
+    second: Common Room Tile sheet_51
+  - first:
+      213: 89991210494216900
+    second: Common Room Tile sheet_52
+  - first:
+      213: -6283456720124009648
+    second: Common Room Tile sheet_57
+  - first:
+      213: 70079205544971825
+    second: Common Room Tile sheet_58
+  - first:
+      213: -2202556434478796857
+    second: Common Room Tile sheet_8
+  - first:
+      213: -8294028729993104313
+    second: Common Room Tile sheet_9
+  - first:
+      213: 7143066380659689205
+    second: Common Room Tile sheet_10
+  - first:
+      213: -6070174234092583004
+    second: Common Room Tile sheet_11
+  - first:
+      213: -8228686329586962046
+    second: Common Room Tile sheet_12
+  - first:
+      213: 1741130610283501427
+    second: Common Room Tile sheet_13
+  - first:
+      213: 6375325899552889667
+    second: Common Room Tile sheet_16
+  - first:
+      213: 6779193638408218417
+    second: Common Room Tile sheet_17
+  - first:
+      213: -700391245761408376
+    second: Common Room Tile sheet_18
+  - first:
+      213: -7169339189392789907
+    second: Common Room Tile sheet_19
+  - first:
+      213: -369394152075444147
+    second: Common Room Tile sheet_20
+  - first:
+      213: 1180847664946858905
+    second: Common Room Tile sheet_21
+  - first:
+      213: 7432596492360547797
+    second: Common Room Tile sheet_22
+  - first:
+      213: -1791789018359866257
+    second: Common Room Tile sheet_23
+  - first:
+      213: 8710176013500442659
+    second: Common Room Tile sheet_24
+  - first:
+      213: 6666239133454887453
+    second: Common Room Tile sheet_29
+  - first:
+      213: -209235960681347757
+    second: Common Room Tile sheet_30
+  - first:
+      213: 461878559570582643
+    second: Common Room Tile sheet_31
+  - first:
+      213: 5778099476668125562
+    second: Common Room Tile sheet_32
+  - first:
+      213: -5955036145030804504
+    second: Common Room Tile sheet_37
+  - first:
+      213: -8489287064347597761
+    second: Common Room Tile sheet_38
+  - first:
+      213: -8084574655058555826
+    second: Common Room Tile sheet_39
+  - first:
+      213: 8929277246517721891
+    second: Common Room Tile sheet_45
+  - first:
+      213: 5741613537338907820
+    second: Common Room Tile sheet_46
+  - first:
+      213: -8796537591574169691
+    second: Common Room Tile sheet_47
+  - first:
+      213: 5946060279664776747
+    second: Common Room Tile sheet_48
+  - first:
+      213: 6172690261104750564
+    second: Common Room Tile sheet_53
+  - first:
+      213: -5440545252403162714
+    second: Common Room Tile sheet_54
+  - first:
+      213: 8029251488407155912
+    second: Common Room Tile sheet_55
+  - first:
+      213: 6078040601405409828
+    second: Common Room Tile sheet_56
+  - first:
+      213: 4847094236282795171
+    second: Common Room Tile sheet_63
+  - first:
+      213: -7272776041280250879
+    second: Common Room Tile sheet_64
+  - first:
+      213: 4659641684799857515
+    second: Common Room Tile sheet_65
+  - first:
+      213: 7754563461014049846
+    second: Common Room Tile sheet_66
+  - first:
+      213: 4175110247482034374
+    second: Common Room Tile sheet_67
+  - first:
+      213: -2824145018794845824
+    second: Common Room Tile sheet_68
+  - first:
+      213: 2380164976993004198
+    second: Common Room Tile sheet_69
+  - first:
+      213: 1448793475333469959
+    second: Common Room Tile sheet_70
+  - first:
+      213: -6112354627263809968
+    second: Common Room Tile sheet_71
+  - first:
+      213: -1643952417218261165
+    second: Common Room Tile sheet_72
+  - first:
+      213: 5684567696067328826
+    second: Common Room Tile sheet_73
+  - first:
+      213: 2230789635450872591
+    second: Common Room Tile sheet_74
+  - first:
+      213: -8908117903467387193
+    second: Common Room Tile sheet_75
+  - first:
+      213: -6592052347064308216
+    second: Common Room Tile sheet_76
+  - first:
+      213: -4835475804902706274
+    second: Common Room Tile sheet_77
+  - first:
+      213: -448158584012937566
+    second: Common Room Tile sheet_78
+  - first:
+      213: -5698712603163035912
+    second: Common Room Tile sheet_79
+  - first:
+      213: 9048360693404215095
+    second: Common Room Tile sheet_80
+  - first:
+      213: -7960266342859472646
+    second: Common Room Tile sheet_81
+  - first:
+      213: 7284206713865515677
+    second: Common Room Tile sheet_82
+  - first:
+      213: -1233945539835976991
+    second: Common Room Tile sheet_85
+  - first:
+      213: -6603456158722406164
+    second: Common Room Tile sheet_86
+  - first:
+      213: -6315526953565659970
+    second: Common Room Tile sheet_87
+  - first:
+      213: 5484396780298553582
+    second: Common Room Tile sheet_88
+  - first:
+      213: -1342930851923399852
+    second: Common Room Tile sheet_89
+  - first:
+      213: -100399332639955112
+    second: Common Room Tile sheet_90
+  - first:
+      213: -3661402266860449677
+    second: Common Room Tile sheet_93
+  - first:
+      213: 2495817923803703918
+    second: Common Room Tile sheet_94
+  - first:
+      213: -1458374385573285780
+    second: Common Room Tile sheet_95
+  - first:
+      213: 909716361683113666
+    second: Common Room Tile sheet_97
+  - first:
+      213: 3388303205327552546
+    second: Common Room Tile sheet_98
+  - first:
+      213: 4308120910537906916
+    second: Common Room Tile sheet_99
+  - first:
+      213: 8698691192424229183
+    second: Common Room Tile sheet_101
+  - first:
+      213: 1069531723592808618
+    second: Common Room Tile sheet_102
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Common Room Tile sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677f057ff55e95550800000000000000
+      internalID: 6150198966485055350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e305694b8f156f0800000000000000
+      internalID: -697503012766073195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d286c67ea679cd80800000000000000
+      internalID: -8229916352353762605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9316baf816735b0800000000000000
+      internalID: -5388731159442015791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ffac6fad5e57980800000000000000
+      internalID: -8541668389632147687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff37c7230f768b70800000000000000
+      internalID: 8900941365073362931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422b0ac8260bf0340800000000000000
+      internalID: 4832274862504456740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b83ac34afe7975e0800000000000000
+      internalID: -1911356953497814863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62689d1077d2a7c50800000000000000
+      internalID: 6663688587803461158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e665abaaf54a2750800000000000000
+      internalID: 6280909573245462245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c709280c82a146500800000000000000
+      internalID: 388464230191501436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ace72d7cf4545a0800000000000000
+      internalID: -6537731564409796041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb819b88b62bb40800000000000000
+      internalID: 5454540333664222427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3004e55a1c4f040800000000000000
+      internalID: 4680578828739806203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654699764dc411960800000000000000
+      internalID: 7570916923741398102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978149b12f794c840800000000000000
+      internalID: 5243482932266670201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab247e3bbfa0019f0800000000000000
+      internalID: -499887482466778438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394940fa7dd6ede20800000000000000
+      internalID: 3377257543696159891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde610295c29456e0800000000000000
+      internalID: -1849692169686651172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db62ffb5e9805e370800000000000000
+      internalID: 8351090560269756093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9de5a7a4a5256750800000000000000
+      internalID: 6297481043065040287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120467c8a872de020800000000000000
+      internalID: 2372596054709649441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd134d9bf18d72850800000000000000
+      internalID: 6352283430202651100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d350c0452c7e9d7c0800000000000000
+      internalID: -4045947968395934403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f773608a5a5720660800000000000000
+      internalID: 7350566896171104127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bd7b052ef616c70800000000000000
+      internalID: 8962567751251516309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca4a667786bf3100800000000000000
+      internalID: 89991210494216900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053a77b776dacc8a0800000000000000
+      internalID: -6283456720124009648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e46a88aa8f8f000800000000000000
+      internalID: 70079205544971825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfe32da792fe61e0800000000000000
+      internalID: -2202556434478796857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74470ef40d0b5ec80800000000000000
+      internalID: -8294028729993104313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f681421705412360800000000000000
+      internalID: 7143066380659689205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7ce2cf1b862cba0800000000000000
+      internalID: -6070174234092583004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2813bd47165ddcd80800000000000000
+      internalID: -8228686329586962046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377d18da01db92810800000000000000
+      internalID: 1741130610283501427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b9232b025b97850800000000000000
+      internalID: 6375325899552889667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e8e842b8841e50800000000000000
+      internalID: 6779193638408218417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88219907fd5b746f0800000000000000
+      internalID: -700391245761408376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ea4f5fdf3618c90800000000000000
+      internalID: -7169339189392789907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40cf6fc9f5afdaf0800000000000000
+      internalID: -369394152075444147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bc103e1b6336010800000000000000
+      internalID: 1180847664946858905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddf6f55123e52760800000000000000
+      internalID: 7432596492360547797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cd63091694227e0800000000000000
+      internalID: -1791789018359866257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32862df8fe2c0e870800000000000000
+      internalID: 8710176013500442659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ae2613c2d338c50800000000000000
+      internalID: 6666239133454887453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355c9599005a81df0800000000000000
+      internalID: -209235960681347757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cd2905a1ce86600800000000000000
+      internalID: 461878559570582643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a719caf3cdeef2050800000000000000
+      internalID: 5778099476668125562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebc3de5d267b5da0800000000000000
+      internalID: -5955036145030804504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f342e35a46eff2a80800000000000000
+      internalID: -8489287064347597761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ccb156f22ddcf80800000000000000
+      internalID: -8084574655058555826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bbaaba85a2beb70800000000000000
+      internalID: 8929277246517721891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacd8a2871f4eaf40800000000000000
+      internalID: 5741613537338907820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7f9d0aaab6ce580800000000000000
+      internalID: -8796537591574169691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b269a7e1256a48250800000000000000
+      internalID: 5946060279664776747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef69a1961dc9a550800000000000000
+      internalID: 6172690261104750564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1521e0bec4f74b0800000000000000
+      internalID: -5440545252403162714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4f8ca10b1ad6f60800000000000000
+      internalID: 8029251488407155912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42acb2169b9895450800000000000000
+      internalID: 6078040601405409828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4aa19c732bef3f0800000000000000
+      internalID: -865058125741644573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f57ac53e8d629f70800000000000000
+      internalID: 9192530246971848185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bebd6a2deb11cdd0800000000000000
+      internalID: -2467660415389286733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a3225b9114de750800000000000000
+      internalID: 6335791829449062968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4ba72e686544340800000000000000
+      internalID: 4847094236282795171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cd48829b8e11b90800000000000000
+      internalID: -7272776041280250879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63291bac6f5aa040800000000000000
+      internalID: 4659641684799857515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63457f1e16ebd9b60800000000000000
+      internalID: 7754563461014049846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8824f36a8f0f930800000000000000
+      internalID: 4175110247482034374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0895b80811f9ec8d0800000000000000
+      internalID: -2824145018794845824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa6e789f6b080120800000000000000
+      internalID: 2380164976993004198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707b7226df52b1410800000000000000
+      internalID: 1448793475333469959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056b9b4e9dd8c2ba0800000000000000
+      internalID: -6112354627263809968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f8f009cf18f29e0800000000000000
+      internalID: -1643952417218261165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bf0c19334a3ee40800000000000000
+      internalID: 5684567696067328826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f032cadaa5b55fe10800000000000000
+      internalID: 2230789635450872591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6678ac6f1006480800000000000000
+      internalID: -8908117903467387193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea37801535484a0800000000000000
+      internalID: -6592052347064308216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9337c8ff50f4ecb0800000000000000
+      internalID: -4835475804902706274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6eddc6422d7c9f0800000000000000
+      internalID: -448158584012937566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6fc6b941b1ae0b0800000000000000
+      internalID: -5698712603163035912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73727f14c1c329d70800000000000000
+      internalID: 9048360693404215095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af00d5cbfe3778190800000000000000
+      internalID: -7960266342859472646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d923872b963b61560800000000000000
+      internalID: 7284206713865515677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c536773e4e207790800000000000000
+      internalID: -7534471263118019130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cac79c6bc41eb1b0800000000000000
+      internalID: -5639046819488478526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e226e9b11520eee0800000000000000
+      internalID: -1233945539835976991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce84c793c9fcb54a0800000000000000
+      internalID: -6603456158722406164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc505362bdba58a0800000000000000
+      internalID: -6315526953565659970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8cdf860dd7c1c40800000000000000
+      internalID: 5484396780298553582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b613d5183fc5de0800000000000000
+      internalID: -1342930851923399852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8572f42c65f4b9ef0800000000000000
+      internalID: -100399332639955112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a4e5b606fc6ab10800000000000000
+      internalID: 1992507898183174672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f906e19a839dd00800000000000000
+      internalID: 997891091449552678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37019f78906103dc0800000000000000
+      internalID: -3661402266860449677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6f54ad2de2a220800000000000000
+      internalID: 2495817923803703918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60306e1930d2cbe0800000000000000
+      internalID: -1458374385573285780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0790509fd7d23930800000000000000
+      internalID: 4121593964196304654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c69b780636ff9c00800000000000000
+      internalID: 909716361683113666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220cdd030dba50f20800000000000000
+      internalID: 3388303205327552546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea5b0a842589cb30800000000000000
+      internalID: 4308120910537906916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f1ad9093ceaf5f0800000000000000
+      internalID: -722005060516962541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39e3474d85f7b870800000000000000
+      internalID: 8698691192424229183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_102
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8b2cc9f6db7de00800000000000000
+      internalID: 1069531723592808618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e5472fb291ea1c0800000000000000
+      internalID: -4490624101899805027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_104
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8f6d732488a6500800000000000000
+      internalID: 390274135707023580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d737a3f8eb234450800000000000000
+      internalID: 6071745002145789911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fedfab8ffd72e020800000000000000
+      internalID: 2369594890463993588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0351c945bd32b330800000000000000
+      internalID: 3725107690624602895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e2f19d455c5d490800000000000000
+      internalID: -7722049017846223258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785a9041c0d80d160800000000000000
+      internalID: 7048288499850126727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0e68a6f2843d8b0800000000000000
+      internalID: -5128676182156975924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ee7303ff9dde910800000000000000
+      internalID: 1868389110477483523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7b7c738c6eedae0800000000000000
+      internalID: -1522525876400965703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e0116d6959057a0800000000000000
+      internalID: -6390443396169658874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_114
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d2a50571743e700800000000000000
+      internalID: 568376143436721438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa4628a449d68c30800000000000000
+      internalID: 4361412178056989349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129126b2d693d0bf0800000000000000
+      internalID: -356565654450333407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c00dd9cb90055a40800000000000000
+      internalID: 5356188000933707971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Common Room Tile sheet_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9285560e6ff14b450800000000000000
+      internalID: 6103538540181018665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
