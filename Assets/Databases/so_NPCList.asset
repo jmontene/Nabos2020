@@ -16,3 +16,6 @@ MonoBehaviour:
   - npcCode: 0
     npcName: TestNPC
     startingSchedule: {fileID: 11400000, guid: 2e0f71a9240eb8e469865053dc2015be, type: 2}
+  - npcCode: 1
+    npcName: TestNPC2
+    startingSchedule: {fileID: 11400000, guid: 4134b9c5122bb7945aa76efba98adda8, type: 2}

@@ -572,6 +572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcList: {fileID: 11400000, guid: 0d241d493070a5e45a434a8318a15763, type: 2}
+  socialLinkList: {fileID: 11400000, guid: 884feb2c4c5195847a563800bcfc00b3, type: 2}
   NPCPrefab: {fileID: 4735303057374911658, guid: f56dbc6461aebdc45839618a5da30089, type: 3}
 --- !u!1 &449962383
 GameObject:

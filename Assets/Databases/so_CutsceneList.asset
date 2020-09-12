@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: so_CutsceneList
   m_EditorClassIdentifier: 
   cutscenes:
-  - cutsceneName: 001_TestCutscene1
+  - cutsceneName: 001_TestCutscene
     cutsceneCode: 0
-    cutscene: {fileID: 0}
+    cutscene: {fileID: 11400000, guid: 5dd99cd7713ee05409b2ba0265f0e665, type: 2}

@@ -4,4 +4,8 @@ public class PassTimeCutsceneAction : BaseCutsceneAction {
         TimeManager.Instance.NextSlot();
         EventHandler.CallCutsceneActionEndEvent();
     }
+
+    public override string GetEditorName() {
+        return "Pass Time Action";
+    }
 }

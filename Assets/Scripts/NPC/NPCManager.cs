@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class NPCManager : SingletonMonoBehaviour<NPCManager> {
     private Dictionary<int, NPCDetails> npcDetailsDictionary;
+    private Dictionary<int, SocialLinkDetails> socialLinks;
     private Dictionary<int, NPCSaveData> npcDataDictionary;
 
     [SerializeField]
     private SO_NPCList npcList = null;
+    [SerializeField]
+    private SO_SocialLinkList socialLinkList = null;
     public NPC NPCPrefab;
 
     private Transform instancesParent;
@@ -16,6 +19,12 @@ public class NPCManager : SingletonMonoBehaviour<NPCManager> {
     protected override void Awake() {
         base.Awake();
         CreateDictionaries();
+    }
+
+    protected void Update() {
+        if (Input.GetKeyDown(KeyCode.L)) {
+            DebugPrintSocialLinks();
+        }
     }
 
     private void OnEnable() {
@@ -34,6 +43,8 @@ public class NPCManager : SingletonMonoBehaviour<NPCManager> {
     private void CreateDictionaries() {
         npcDetailsDictionary = new Dictionary<int, NPCDetails>();
         npcDataDictionary = new Dictionary<int, NPCSaveData>();
+        socialLinks = new Dictionary<int, SocialLinkDetails>();
+
         foreach (NPCDetails detail in npcList.npcDetails) {
             npcDetailsDictionary.Add(detail.npcCode, detail);
 
@@ -41,6 +52,11 @@ public class NPCManager : SingletonMonoBehaviour<NPCManager> {
             saveData.npcCode = detail.npcCode;
             saveData.currentSchedule = detail.startingSchedule;
             npcDataDictionary.Add(detail.npcCode, saveData);
+        }
+        foreach(SocialLinkDetails sl in socialLinkList.socialLinks) {
+            if (!socialLinks.ContainsKey(sl.npcCode)) {
+                socialLinks.Add(sl.npcCode, sl);
+            }
         }
     }
 
@@ -62,5 +78,14 @@ public class NPCManager : SingletonMonoBehaviour<NPCManager> {
                 Instantiate<NPC>(NPCPrefab, pos, Quaternion.identity, instancesParent);
             }
         }
+    }
+
+    // Debug Methods
+    public void DebugPrintSocialLinks() {
+        Debug.Log("******************************** Social Links ************************");
+        foreach(SocialLinkDetails sl in socialLinks.Values) {
+            sl.DebugPrint();
+        }
+        Debug.Log("**********************************************************************");
     }
 }
