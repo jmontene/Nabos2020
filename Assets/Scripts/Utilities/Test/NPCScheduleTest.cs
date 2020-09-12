@@ -5,6 +5,6 @@ public class NPCScheduleTest : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        schedule.DebugPrintInfo();
+        
     }
 }

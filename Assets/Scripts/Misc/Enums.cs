@@ -48,6 +48,19 @@ public enum CutsceneActionType {
     PassTime
 }
 
+public enum EventCode {
+    EV001_Class
+}
+
+public enum PopupType {
+    YesNo
+}
+
+public enum ScheduleCategory {
+    Default,
+    Class
+} 
+
 public enum SceneName {
     Scene000_None,
     Scene001_Test,

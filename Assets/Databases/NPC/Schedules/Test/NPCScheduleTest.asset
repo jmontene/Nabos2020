@@ -14,113 +14,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monday:
     morning:
+    - descriptiveName: Default
+      scheduleCategory: 0
       sceneName: 1
       spawnName: NPCSpawn
-    day:
-      sceneName: 2
+    - descriptiveName: Class
+      scheduleCategory: 1
+      sceneName: 1
       spawnName: NPCSpawn
-    afternoon:
-      sceneName: 0
-      spawnName: 
-    evening:
-      sceneName: 0
-      spawnName: 
-    night:
-      sceneName: 0
-      spawnName: 
+    day: []
+    afternoon: []
+    evening: []
+    night: []
   tuesday:
-    morning:
-      sceneName: 0
-      spawnName: 
-    day:
-      sceneName: 0
-      spawnName: 
-    afternoon:
-      sceneName: 0
-      spawnName: 
-    evening:
-      sceneName: 0
-      spawnName: 
-    night:
-      sceneName: 0
-      spawnName: 
+    morning: []
+    day: []
+    afternoon: []
+    evening: []
+    night: []
   wednesday:
-    morning:
-      sceneName: 0
-      spawnName: 
-    day:
-      sceneName: 0
-      spawnName: 
-    afternoon:
-      sceneName: 0
-      spawnName: 
-    evening:
-      sceneName: 0
-      spawnName: 
-    night:
-      sceneName: 0
-      spawnName: 
+    morning: []
+    day: []
+    afternoon: []
+    evening: []
+    night: []
   thursday:
-    morning:
-      sceneName: 0
-      spawnName: 
-    day:
-      sceneName: 0
-      spawnName: 
-    afternoon:
-      sceneName: 0
-      spawnName: 
-    evening:
-      sceneName: 0
-      spawnName: 
-    night:
-      sceneName: 0
-      spawnName: 
+    morning: []
+    day: []
+    afternoon: []
+    evening: []
+    night: []
   friday:
-    morning:
-      sceneName: 0
-      spawnName: 
-    day:
-      sceneName: 0
-      spawnName: 
-    afternoon:
-      sceneName: 0
-      spawnName: 
-    evening:
-      sceneName: 0
-      spawnName: 
-    night:
-      sceneName: 1
-      spawnName: NPCSpawn
+    morning: []
+    day: []
+    afternoon: []
+    evening: []
+    night: []
   saturday:
-    morning:
-      sceneName: 0
-      spawnName: 
-    day:
-      sceneName: 0
-      spawnName: 
-    afternoon:
-      sceneName: 0
-      spawnName: 
-    evening:
-      sceneName: 0
-      spawnName: 
-    night:
-      sceneName: 0
-      spawnName: 
+    morning: []
+    day: []
+    afternoon: []
+    evening: []
+    night: []
   sunday:
-    morning:
-      sceneName: 0
-      spawnName: 
-    day:
-      sceneName: 0
-      spawnName: 
-    afternoon:
-      sceneName: 0
-      spawnName: 
-    evening:
-      sceneName: 0
-      spawnName: 
-    night:
-      sceneName: 0
-      spawnName: 
+    morning: []
+    day: []
+    afternoon: []
+    evening: []
+    night: []

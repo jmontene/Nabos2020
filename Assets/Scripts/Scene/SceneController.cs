@@ -38,15 +38,17 @@ public class SceneController : SingletonMonoBehaviour<SceneController> {
         }
     }
 
+    public bool IsPlayerInputEnabled() {
+        return !(CutsceneManager.Instance.IsPlayingCutscene || isFading || UIManager.Instance.IsUIBlocking);
+    }
+
     private IEnumerator Fade(float finalAlpha) {
-        isFading = true;
         faderCanvasGroup.blocksRaycasts = true;
         float fadeSpeed = Mathf.Abs(faderCanvasGroup.alpha - finalAlpha) / fadeDuration;
         while (!Mathf.Approximately(faderCanvasGroup.alpha, finalAlpha)) {
             faderCanvasGroup.alpha = Mathf.MoveTowards(faderCanvasGroup.alpha, finalAlpha, fadeSpeed * Time.deltaTime);
             yield return null;
         }
-        isFading = false;
         faderCanvasGroup.blocksRaycasts = false;
     }
 
@@ -58,6 +60,7 @@ public class SceneController : SingletonMonoBehaviour<SceneController> {
     }
 
     private IEnumerator FadeAndSwitchScenes(string sceneName) {
+        isFading = true;
         EventHandler.CallBeforeSceneUnloadFadeOutEvent();
         yield return StartCoroutine(Fade(1f));
         EventHandler.CallBeforeSceneUnloadEvent();
@@ -66,6 +69,7 @@ public class SceneController : SingletonMonoBehaviour<SceneController> {
         EventHandler.CallAfterSceneLoadEvent();
         yield return StartCoroutine(Fade(0f));
         EventHandler.CallAfterSceneLoadFadeInEvent();
+        isFading = false;
     }
 
     // Debug Methods
