@@ -7,6 +7,7 @@ public class SwitchSceneActionDrawer : PropertyDrawer {
     {
         SerializedObject obj = new SerializedObject(property.objectReferenceValue as SwitchSceneCutsceneAction);
         EditorGUILayout.PropertyField(obj.FindProperty("sceneName"));
+        EditorGUILayout.PropertyField(obj.FindProperty("spawnName"));
         EditorGUILayout.PropertyField(obj.FindProperty("endOnLoad"));
         obj.ApplyModifiedProperties();
     }

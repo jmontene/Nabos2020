@@ -15,6 +15,8 @@ public class BaseActionDrawer : PropertyDrawer {
             _polyPropertyDrawers.Add(typeof(SwitchSceneCutsceneAction), new SwitchSceneActionDrawer());
             _polyPropertyDrawers.Add(typeof(DialogueCutsceneAction), new DialogueActionDrawer());
             _polyPropertyDrawers.Add(typeof(PassTimeCutsceneAction), new PassTimeActionDrawer());
+            _polyPropertyDrawers.Add(typeof(SetPlayerAnimationAction), new SetPlayerAnimationDrawer());
+            _polyPropertyDrawers.Add(typeof(ModalPopupAction), new ModalPopupActionDrawer());
         }
     }
 

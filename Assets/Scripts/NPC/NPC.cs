@@ -16,6 +16,14 @@ public class NPC : MonoBehaviour, PlayerInteractionTrigger {
     }
 
     public void OnPlayerInteract(Player player) {
-        CutsceneManager.Instance.PlayCutscene(0);
+        UIManager.Instance.ShowYesNoPopup("NPC has shown a popup?", OnYes, OnNo);
+    }
+
+    private void OnYes() {
+        Debug.Log("Yes selected");
+    }
+
+    private void OnNo() {
+        Debug.Log("No selected");
     }
 }

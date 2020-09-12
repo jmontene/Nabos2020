@@ -72,5 +72,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openText: This is a test door! Open?
   closedText: This test door is closed!
-  targetRoom: 2
+  targetRoom: 1
+  spawnName: Spawn1
   open: 1

@@ -105,11 +105,16 @@ public static class EventHandler {
     }
 
     public static event Action CutsceneEndEvent;
-    public static void CallCutsceneEndEvent()
-    {
-        if (CutsceneEndEvent != null)
-        {
+    public static void CallCutsceneEndEvent() {
+        if (CutsceneEndEvent != null) {
             CutsceneEndEvent();
+        }
+    }
+
+    public static event Action PopupCloseEvent;
+    public static void CallPopupCloseEvent() {
+        if (PopupCloseEvent != null) {
+            PopupCloseEvent();
         }
     }
 }

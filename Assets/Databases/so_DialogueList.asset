@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: so_DialogueList
   m_EditorClassIdentifier: 
   dialogues:
-  - dialogueCode: 0
+  - descriptiveName: DI001 - Class Start
+    dialogueCode: 1
     dialogueUnits:
-    - speaker: Test_NPC
-      dialogueText: Hello! I am a test NPC!
-    - speaker: Test_NPC
-      dialogueText: This is a test dialogue!
-    - speaker: Test_NPC
-      dialogueText: Well... I have to leave now. Nice to meet you and have a nice
-        day!
+    - speaker: Teacher
+      dialogueText: Attention! Class is about to start! Open up your books at page...
+  - descriptiveName: DI002 - Chessboard 1
+    dialogueCode: 2
+    dialogueUnits:
+    - speaker: You
+      dialogueText: And.... Checkmate!

@@ -33,6 +33,18 @@ public class CutsceneDetailsEditor : Editor {
                     EditorGUILayout.EndHorizontal();
                     continue;
                 }
+                if (GUILayout.Button("Up")) {
+                    if (i > 0) {
+                        obj.actions.RemoveAt(i);
+                        obj.actions.Insert(i - 1, act);
+                    }
+                }
+                if (GUILayout.Button("Down")) {
+                    if (i < obj.actions.Count - 1) {
+                        obj.actions.RemoveAt(i);
+                        obj.actions.Insert(i + 1, act);
+                    }
+                }
                 EditorGUILayout.EndHorizontal();
                 if (collapse[i]) {
                     EditorGUI.indentLevel++;
@@ -60,6 +72,12 @@ public class CutsceneDetailsEditor : Editor {
                 break;
             case CutsceneActionType.PassTime:
                 AddActionButton<PassTimeCutsceneAction>(obj, "Add Pass Time Action", "Pass Time");
+                break;
+            case CutsceneActionType.SetPlayerAnimation:
+                AddActionButton<SetPlayerAnimationAction>(obj, "Add Set Player Animation", "Set Player Animation");
+                break;
+            case CutsceneActionType.ModalPopup:
+                AddActionButton<ModalPopupAction>(obj, "Add Modal Popup", "Modal Popup");
                 break;
         }
         EditorGUI.indentLevel--;

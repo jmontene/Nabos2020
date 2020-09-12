@@ -18,10 +18,6 @@ MonoBehaviour:
       scheduleCategory: 0
       sceneName: 1
       spawnName: NPCSpawn
-    - descriptiveName: Class
-      scheduleCategory: 1
-      sceneName: 1
-      spawnName: NPCSpawn
     day: []
     afternoon: []
     evening: []

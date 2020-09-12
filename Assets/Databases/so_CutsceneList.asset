@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: so_CutsceneList
   m_EditorClassIdentifier: 
   cutscenes:
-  - cutsceneName: 001_TestCutscene
-    cutsceneCode: 0
-    cutscene: {fileID: 11400000, guid: 5dd99cd7713ee05409b2ba0265f0e665, type: 2}
+  - cutsceneName: EV001 - Class
+    cutsceneCode: 1
+    cutscene: {fileID: 11400000, guid: c3059249e276b84438317fed937891d5, type: 2}
+  - cutsceneName: EV002 - Chess Playing
+    cutsceneCode: 2
+    cutscene: {fileID: 11400000, guid: 5041cf1fcd2e0224bacd7ad1f2a24185, type: 2}
+  - cutsceneName: EV003 -Studying
+    cutsceneCode: 3
+    cutscene: {fileID: 11400000, guid: 45db777d3594f39409bc137fd9b2bed5, type: 2}

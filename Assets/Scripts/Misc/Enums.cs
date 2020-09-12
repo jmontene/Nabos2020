@@ -39,13 +39,16 @@ public enum Direction {
     Right,
     Left,
     Down,
-    Up
+    Up,
+    None
 }
 
 public enum CutsceneActionType {
     SwitchScene,
     Dialogue,
-    PassTime
+    PassTime,
+    SetPlayerAnimation,
+    ModalPopup
 }
 
 public enum EventCode {
@@ -53,7 +56,22 @@ public enum EventCode {
 }
 
 public enum PopupType {
-    YesNo
+    YesNo,
+    Modal
+}
+
+public enum AnimationParameterType {
+    Trigger,
+    Bool,
+    Int,
+    Float
+}
+
+public enum PlayerAnimationParameterNames {
+    Moving,
+    Sitting,
+    xDir,
+    yDir,
 }
 
 public enum ScheduleCategory {
@@ -64,5 +82,6 @@ public enum ScheduleCategory {
 public enum SceneName {
     Scene000_None,
     Scene001_Test,
-    Scene002_Test2
+    Scene002_Test2,
+    RM001_Dormitory
 }

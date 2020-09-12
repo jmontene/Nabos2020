@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// Main player behavior class. Might be separated by domain in the future
 /// </summary>
-public class Player : MonoBehaviour {
+public class Player : SingletonMonoBehaviour<Player> {
     // ********************* Properties *************************** //
 
     /// <summary>
@@ -15,6 +15,9 @@ public class Player : MonoBehaviour {
     /// Y input for movement
     /// </summary>
     private float inputY = 0;
+
+    private float staticInputX = 0;
+    private float staticInputY = 0;
 
     /// <summary>
     /// Rigidbody for physics operations
@@ -54,15 +57,20 @@ public class Player : MonoBehaviour {
     public float interactionDistance;
     public LayerMask interactionMask;
 
+    [Header("Animations")]
+    public Animator bodyAnimator;
+
     // ********************* Unity Methods *************************** //
 
     /// <summary>
     /// Initialize internal parameters
     /// </summary>
-    protected void Awake() {
+    protected override void Awake() {
+        base.Awake();
         rb2D = GetComponent<Rigidbody2D>();
         currentSpawnPointName = "Spawn1";
         direction = Vector2.down;
+        _inputEnabled = true;
     }
 
     /// <summary>
@@ -74,8 +82,8 @@ public class Player : MonoBehaviour {
             PlayerMovementInput();
             PlayerActionsInput();
         } else {
-            inputX = 0;
-            inputY = 0;
+            inputX = staticInputX;
+            inputY = staticInputY;
         }
         if (prevInputX != inputX || prevInputY != inputY) {
             EventHandler.CallMovementEvent(inputX, inputY);
@@ -84,12 +92,43 @@ public class Player : MonoBehaviour {
     }
 
     private void OnEnable() {
+        EventHandler.AfterSceneLoadEvent += OnAfterSceneLoad;
     }
 
     private void OnDisable() {
+        EventHandler.AfterSceneLoadEvent -= OnAfterSceneLoad;
+    }
+
+    public void SetDirection(Direction dir) {
+        switch(dir) {
+            case Direction.Down:
+                staticInputY = -1;
+                staticInputX = 0;
+                break;
+            case Direction.Up:
+                staticInputY = 1;
+                staticInputX = 0;
+                break;
+            case Direction.Right:
+                staticInputY = 0;
+                staticInputX = 1;
+                break;
+            case Direction.Left:
+                staticInputY = 0;
+                staticInputX = -1;
+                break;
+            case Direction.None:
+                staticInputY = 0;
+                staticInputX = 0;
+                break;
+        }
     }
 
     // ********************* Private Methods *************************** //
+
+    private void OnAfterSceneLoad() {
+        transform.position = SceneController.Instance.FindSpawnPosition(currentSpawnPointName);
+    }
 
     private void PlayerTestInput() {
         if (Input.GetKeyDown(KeyCode.L)) {

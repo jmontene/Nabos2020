@@ -1,6 +1,7 @@
 ﻿[System.Serializable]
 public class SwitchSceneCutsceneAction : BaseCutsceneAction {
     public SceneName sceneName;
+    public string spawnName;
     public bool endOnLoad = false;
 
     public override string GetEditorName() {
@@ -13,6 +14,7 @@ public class SwitchSceneCutsceneAction : BaseCutsceneAction {
         } else {
             EventHandler.AfterSceneLoadFadeInEvent += OnSceneLoadFadeIn;
         }
+        Player.Instance.currentSpawnPointName = spawnName;
         SceneController.Instance.FadeAndLoadScene(sceneName.ToString());
     }
 
