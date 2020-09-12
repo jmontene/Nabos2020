@@ -14,6 +14,8 @@ public class UIManager : SingletonMonoBehaviour<UIManager> {
 
     [HideInInspector] public bool IsUIBlocking;
 
+    private GameObject currentPopup;
+
     protected override void Awake() {
         base.Awake();
         dialogueUICanvas.alpha = 0f;
@@ -25,7 +27,12 @@ public class UIManager : SingletonMonoBehaviour<UIManager> {
         }
     }
 
-    public void ShowPopup() {
+    public void ShowPopup(PopupType popupType) {
         popupParent.alpha = 1f;
+        currentPopup = Instantiate(popups[popupType], popupParent.transform);
+    }
+
+    private void ShowYesNoPopup(string mainText) {
+        PopupYesNo comp = currentPopup.GetComponent<PopupYesNo>();
     }
 }
