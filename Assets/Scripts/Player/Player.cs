@@ -38,7 +38,15 @@ public class Player : MonoBehaviour {
 
     private Vector2 direction;
 
-    [HideInInspector] public bool inputEnabled = true;
+    private bool _inputEnabled;
+    public bool InputEnabled {
+        get {
+            return SceneController.Instance.IsPlayerInputEnabled() && _inputEnabled;
+        }
+        set {
+            _inputEnabled = value;
+        }
+    }
     [HideInInspector] public string currentSpawnPointName = "";
 
     [Header("Interactions")]
@@ -61,7 +69,7 @@ public class Player : MonoBehaviour {
     /// Update each frame
     /// </summary>
     private void Update() {
-        if (inputEnabled) {
+        if (InputEnabled) {
             PlayerTestInput();
             PlayerMovementInput();
             PlayerActionsInput();
@@ -76,23 +84,9 @@ public class Player : MonoBehaviour {
     }
 
     private void OnEnable() {
-        EventHandler.BeforeSceneUnloadFadeOutEvent += OnBeforeSceneUnloadFadeOut;
-        EventHandler.AfterSceneLoadEvent += OnAfterSceneLoaded;
-        EventHandler.AfterSceneLoadFadeInEvent += OnAfterSceneFadedIn;
-        EventHandler.DialogueStartEvent += OnDialogueStart;
-        EventHandler.DialogueEndEvent += OnDialogueEnd;
-        EventHandler.CutsceneStartEvent += OnCutsceneStart;
-        EventHandler.CutsceneEndEvent += OnCutsceneEnd;
     }
 
     private void OnDisable() {
-        EventHandler.BeforeSceneUnloadFadeOutEvent -= OnBeforeSceneUnloadFadeOut;
-        EventHandler.AfterSceneLoadEvent -= OnAfterSceneLoaded;
-        EventHandler.AfterSceneLoadFadeInEvent -= OnAfterSceneFadedIn;
-        EventHandler.DialogueStartEvent -= OnDialogueStart;
-        EventHandler.DialogueEndEvent -= OnDialogueEnd;
-        EventHandler.CutsceneStartEvent -= OnCutsceneStart;
-        EventHandler.CutsceneEndEvent -= OnCutsceneEnd;
     }
 
     // ********************* Private Methods *************************** //
@@ -105,37 +99,6 @@ public class Player : MonoBehaviour {
             currentSpawnPointName = "Spawn1";
             SceneController.Instance.DebugPassTime();
         }
-    }
-
-    private void OnBeforeSceneUnloadFadeOut() {
-        inputEnabled = false;
-    }
-
-    private void OnAfterSceneFadedIn() {
-        inputEnabled = !CutsceneManager.Instance.IsPlayingCutscene;
-    }
-
-    private void OnAfterSceneLoaded() {
-        transform.position = SceneController.Instance.FindSpawnPosition(currentSpawnPointName);
-    }
-    private void OnDialogueStart() {
-        inputEnabled = false;
-    }
-
-    private void OnDialogueEnd() {
-        StartCoroutine(OnDialogueEndRoutine());
-    }
-    private IEnumerator OnDialogueEndRoutine() {
-        yield return new WaitForSeconds(0.2f);
-        inputEnabled = !CutsceneManager.Instance.IsPlayingCutscene;
-    }
-
-    private void OnCutsceneStart() {
-        inputEnabled = false;
-    }
-
-    private void OnCutsceneEnd() {
-        inputEnabled = true;
     }
 
     /// <summary>

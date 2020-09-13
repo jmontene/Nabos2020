@@ -1,6 +1,6 @@
 ﻿[System.Serializable]
 public class NPCDetails {
-    public int npcCode;
     public string npcName;
+    public int npcCode;
     public NPCSchedule startingSchedule;
 }

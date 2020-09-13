@@ -6,20 +6,28 @@ using UnityEngine;
 public class DialogueManager : SingletonMonoBehaviour<DialogueManager> {
     private Dictionary<int, DialogueDetails> dialoguesDictionary;
     private bool runningDialogue;
+    public bool IsRunningDialogue {
+        get {
+            return runningDialogue;
+        }
+    }
     private int currentDialogueIndex;
     private DialogueDetails currentDetails;
 
     public SO_DialoguesList dialoguesList;
 
-    [Header("Dialogue UI")]
-    public CanvasGroup dialogueUICanvas;
-    public TypewriterText typewriter;
+    private CanvasGroup dialogueUI;
+    private TypewriterText typewriter;
 
     protected override void Awake() {
         base.Awake();
         CreateDialoguesDictionary();
         runningDialogue = false;
-        dialogueUICanvas.alpha = 0f;
+    }
+
+    protected void Start() {
+        dialogueUI = UIManager.Instance.dialogueUICanvas;
+        typewriter = UIManager.Instance.typewriter;
     }
 
     private void Update() {
@@ -37,10 +45,11 @@ public class DialogueManager : SingletonMonoBehaviour<DialogueManager> {
         DialogueDetails dialogue = GetDialogue(code);
         if (dialogue != null && !runningDialogue) {
             EventHandler.CallDialogueStartEvent();
+            UIManager.Instance.IsUIBlocking = true;
             runningDialogue = true;
             currentDialogueIndex = -1;
             currentDetails = dialogue;
-            dialogueUICanvas.alpha = 1f;
+            dialogueUI.alpha = 1f;
             NextDialogue();
         }
     }
@@ -61,7 +70,7 @@ public class DialogueManager : SingletonMonoBehaviour<DialogueManager> {
     private void EndDialogue() {
         runningDialogue = false;
         currentDetails = null;
-        dialogueUICanvas.alpha = 0f;
+        dialogueUI.alpha = 0f;
         EventHandler.CallDialogueEndEvent();
     }
 
